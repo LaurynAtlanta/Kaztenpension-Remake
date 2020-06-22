@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -10,47 +10,24 @@
 }
 
 h1, h2, h3, h4, h5, p, li{
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo h2, .logo{
-    font-family: 'Raleway', sans-serif;
-    color: #f8a54a;
-    text-transform: uppercase;
-    text-align: center;
+ width: 70px;
+ padding-top: 10px;
 }
-
 
 
 
 /* nav start */
-.firstheader{
-    background-color: #6b5948;
-    height: 5vh;
-    color: white;
-}
-
-.firstnav{
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.firstnav li{
-    color: white;
-    padding: 20px;
-}
-
-.firstnav .envelope{
-    margin-right: auto;
-}
 
 nav{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 12vh;
+    padding: 0 50px;
 }
 
 .navlinks{
@@ -73,37 +50,105 @@ nav{
 
 
 /* jumbotron start */
-
 .jumbotron{
-    background-color: #f5e6d8;
-    padding: 40px 30px 50px 130px;
-    height: 55vh;
+    background-color: #F5E6D8;
+    height: 340px;
+    margin-left: 50px;
+}
+.paws{
+    opacity: 10%;
+}
+
+.paw1{
+    width: 11%;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    transform: rotate(-20deg);
+}
+
+.paw2{
+    width: 7%;
+    position: absolute;
+    top: 130px;
+    left: 410px;
+    transform: rotate(-20deg);
+}
+
+.paw3{
+    width: 7.5%;
+    position: absolute;
+    top: 280px;
+    left: 140px;
+    transform: rotate(15deg);
+}
+.paw4{
+    width: 21%;
+    position: absolute;
+    top: 300px;
+    left: 340px;
+    transform: rotate(15deg);
+}
+
+.jumbocontent{
+    text-transform: uppercase;
     text-align: center;
 }
 
-.jumbotron h1{
-    color: #e7581a;
+.jumbocontent h1{
+    color: #E75934;
+    font-weight: 500;
+    font-size: 2.5em;
+    padding: 90px 50px 0;
 }
 
-.jumbotron p{
-    color: #6b5948;
+.jumbocontent h2{
+    color: #E77234;
+    opacity: 67%;
+    font-size: 0.9em;
+    font-weight: 200;
+    font-style: italic;
 }
-/* 
-.jumbotron img{
+
+.cat{
+    width: 230px;
     position: absolute;
-    top:280px;
-    left: 170px;
-    width: 120%;
-} */
-
-.jumbotron img.cat{
-    position: absolute;
-    width: 50%;
-    top:180px;
-    left: 10px;
-
+    top:190px;
+    left: 15px;
 }
+
 /* jumbotron end */
+
+
+
+
+/* location */
+
+.location{
+    display: flex;
+    height: 25vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.location li{
+    padding: 10px;
+}
+
+.location h3{
+    color:#E75934;
+}
+
+.locate{
+    width: 50px;
+}
+
+.germany{
+    width: 50px;
+}
+/* location end */
+
 
 
 
@@ -111,46 +156,21 @@ nav{
 
 
 /* services start */
-
-.servicescontent{
-    background-color: #A2B8AB;
-    border-radius: 0 120px 120px 0;
-    padding: 30px;
-    margin: 30px 90px 30px 0px;
+.services{
+    height: 270px;
+    width: 100%;
+    position: absolute;
+    top: 520px;
+    background-repeat: no-repeat;
+    
 }
 
-.servicescontent h2{
-    text-transform: uppercase;
-    padding-bottom: 3%;
-}
-
-.servicescards{
-    display: flex;
-    justify-content: space-around;
-}
-
-.servicescards h4{
-    text-transform: uppercase;
-}
-
-.pethotel, .homevisits{
-    background-color: #A2B8AB;
-    padding: 30px;
-    margin: 0px 20px;
-    border-radius: 50px;
-    text-align: center;
-    width: 200px;
-}
-.pethotel h4, .homevisits h4{
-    color: #f5e6d8;
-}
-
-.pethotel p, .homevisits p{
-    display: none;
-}
-.pethotel .fas, .homevisits .fas{
-    color: #f5e6d8;
-    font-size: 3em;
+.services h3{
+    position: absolute;
+    font-size: 1.5em;
+    top:120px;
+    left: 180px;
+    font-weight: 500;
 }
 /* services end */
 
@@ -159,37 +179,6 @@ nav{
 
 
 
-/* team start */
-.team h3{
-    text-align: center;
-    margin: 30px;
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-.teamcards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.card1 img, .card2 img, .card3 img{
-    width: 70%;
-    height: auto;
-    border: 5px solid white;
-    margin-left: 70px;
-
-}
-
-
-.learnmore{
-    background-color: pink;
-    border:none;
-    border-radius: 30px;
-    padding: 10px;
-}
-/* end team */
 
 
 
@@ -197,24 +186,7 @@ nav{
 
 
 /* Testimonials */
-.testimonials{
-    background-color: #60576c;
-    height: 32vh;
-}
 
-.testimonialcard{
-    background-color: white;
-    border-radius: 30px;
-    padding: 20px 20px 30px 40px;
-    margin: 30px;
-    position: relative;
-    top: 5px;
-    /* display: none; */
-}
-
-.testimonialcard h4{
-    margin-bottom: 3%;
-}
 /* end of testimonials */
 
 
@@ -223,28 +195,12 @@ nav{
 
 /* Footer start */
 .footer1{
+    margin-top: 30vh;
     height:30vh;
     background-color: white;
 }
 
 .footer1 ul{
-    display: flex;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer2{
-    height: 5vh;
-    background-color: #6b5948;
-    color: white;
-}
-
-.footer2 a{
-    color: white;
-}
-
-.footer2 ul{
     display: flex;
     height: 100%;
     justify-content: space-around;
