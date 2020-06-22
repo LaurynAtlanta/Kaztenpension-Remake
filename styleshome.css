@@ -218,6 +218,32 @@ nav{
 
 
 
+/* facilities */
+.facilities{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 920px;
+    background-repeat: no-repeat;
+}
+
+.facilities h3{
+    position: absolute;
+    font-size: 1.8em;
+    top:0px;
+    left: 180px;
+    font-weight: 500;
+    color: #E75934;
+}
+
+.cathotel{
+    width: 115%;
+    position: absolute;
+    top:40px;
+    left:0;
+}
+
+/* end of facilities */
 
 
 
@@ -226,7 +252,11 @@ nav{
 
 
 /* Testimonials */
-
+.testimonials{
+    background-color: #F5E6D8;
+    height: 300px;
+    margin-top: 700px;
+}
 /* end of testimonials */
 
 
@@ -235,8 +265,8 @@ nav{
 
 /* Footer start */
 .footer1{
-    margin-top: 40vh;
-    height:30vh;
+    margin-top: 3vh;
+    height:25vh;
     background-color: white;
 }
 
