@@ -160,18 +160,58 @@ nav{
     height: 270px;
     width: 100%;
     position: absolute;
-    top: 520px;
+    top: 550px;
     background-repeat: no-repeat;
-    
 }
 
 .services h3{
     position: absolute;
-    font-size: 1.5em;
-    top:120px;
+    font-size: 1.8em;
+    top:90px;
     left: 180px;
     font-weight: 500;
+    color: #E75934;
 }
+.servicecards {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:480px;
+    left:40px;
+}
+
+.servicecards h4{
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.hotel, .home{
+    background-color: #6C8070;
+    border-radius: 10px;
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    padding-top:27px;
+    text-align: center;
+}
+
+.servicecards img{
+    width: 100px;
+    justify-self: center;
+    padding-bottom: 5px;
+}
+.servicecards .home img{
+    width: 90px;
+    padding-bottom: 13px;
+}
+
+.servicecards .hotel img{
+    width: 90px;
+    padding-bottom: 15px;
+}
+
 /* services end */
 
 
@@ -195,7 +235,7 @@ nav{
 
 /* Footer start */
 .footer1{
-    margin-top: 30vh;
+    margin-top: 40vh;
     height:30vh;
     background-color: white;
 }
