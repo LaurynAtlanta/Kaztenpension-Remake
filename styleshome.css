@@ -9,7 +9,7 @@
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, p, li{
+h1, h2, h3, h4, h5, p, li, button{
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, p, li{
  width: 70px;
  padding-top: 10px;
 }
+
+
 
 
 
@@ -49,6 +51,8 @@ nav{
 
 
 
+
+
 /* jumbotron start */
 .jumbotron{
     background-color: #F5E6D8;
@@ -56,7 +60,7 @@ nav{
     margin-left: 50px;
 }
 .paws{
-    opacity: 10%;
+    opacity: 45%;
 }
 
 .paw1{
@@ -95,6 +99,13 @@ nav{
     text-align: center;
 }
 
+.jumbocontent img{
+    position: absolute;
+    top:110px;
+    left:50%;
+    width: 50px;
+}
+
 .jumbocontent h1{
     color: #E75934;
     font-weight: 500;
@@ -122,6 +133,9 @@ nav{
 
 
 
+
+
+
 /* location */
 
 .location{
@@ -140,11 +154,7 @@ nav{
     color:#E75934;
 }
 
-.locate{
-    width: 50px;
-}
-
-.germany{
+.locate, .germany{
     width: 50px;
 }
 /* location end */
@@ -160,14 +170,14 @@ nav{
     height: 270px;
     width: 100%;
     position: absolute;
-    top: 550px;
+    top: 530px;
     background-repeat: no-repeat;
 }
 
 .services h3{
     position: absolute;
     font-size: 1.8em;
-    top:90px;
+    top:120px;
     left: 180px;
     font-weight: 500;
     color: #E75934;
@@ -193,26 +203,27 @@ nav{
     width: 190px;
     height: 190px;
     margin: 10px;
-    padding-top:27px;
+    padding-top:40px;
     text-align: center;
 }
 
 .servicecards img{
-    width: 100px;
     justify-self: center;
     padding-bottom: 5px;
 }
 .servicecards .home img{
-    width: 90px;
-    padding-bottom: 13px;
+    width: 80px;
+    padding-bottom: 15px;
 }
 
 .servicecards .hotel img{
-    width: 90px;
+    width: 80px;
     padding-bottom: 15px;
 }
 
 /* services end */
+
+
 
 
 
@@ -254,10 +265,99 @@ nav{
 /* Testimonials */
 .testimonials{
     background-color: #F5E6D8;
-    height: 300px;
+    height: 340px;
     margin-top: 700px;
+    overflow-y: hidden;
+}
+
+.innertest{
+    background-color: white;
+    height: 185px;
+    width: 80%;
+    margin: 80px 50px;
+    padding: 30px 30px 30px 50px;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+.innertest h3{
+    position: absolute;
+    top:1333px;
+    left:33%;
+    color:#E75934;
+    font-size: 1.9em;
+    font-weight: 500;
+}
+.innertest h4{
+    margin: 0.5% 0 4% 0;
+}
+.innertest p{
+    line-height: 1.05;
+    font-size: 0.8em;
+}
+.innertest button{
+    background-color: #E75934;
+    position: absolute;
+    top:1550px;
+    left:37%;
+    color: white;
+    border-radius: 5px;;
+    border: none;
+    padding: 12px 30px;
+    font-size: 0.6em;
+}
+
+.innertest h5{
+    font-weight: 200;
+    margin: 3% 4%;
+}
+
+.testimonials img{
+    position: absolute;
+    width: 80px;
+    top:1325px;
+    left:18px;
 }
 /* end of testimonials */
+
+
+
+
+
+/* cats */
+.cats{
+    opacity: 0.5;
+}
+.cat1{
+    position: absolute;
+    width: 55px;
+    top:1345px;
+    left:100px;
+}
+
+.cat2{
+    position: absolute;
+    width: 55px;
+    top:1350px;
+    left:430px;
+}
+
+.cat3{
+    position: absolute;
+    width: 50px;
+    top:1550px;
+    left:13px;
+}
+
+.cat4{
+    position: absolute;
+    width: 50px;
+    top:1600px;
+    left:400px;
+}
+/* end of cats */
+
+
 
 
 
@@ -276,4 +376,298 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+.footer1 li{
+    width: 150px
+}
+
+.footer1 h5{
+    font-size: 1.4em;
+    margin-bottom: 5%;
+}
+
+.footer1 p{
+    font-size: 0.8em;
+}
+
+.about{
+    padding-left: 5px;
+}
+.about p{
+    padding-bottom: 36px;
+}
+
+.contact p{
+    font-size: 0.7em;
+    line-height: 1.4;
+}
+
+.footer2{
+    height: 5vh;
+    background-color: #6C8070;
+
+}
+
+.footerlogo{
+    width: 125px;
+    padding: 0 0 60px 20px;
+}
 /* footer end */
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media only screen and (min-width: 1200px){
+    
+    /* navigation start MEDIA*/
+    .burger{
+        display: none;
+    }
+
+    nav{
+        height: 18vh;
+    }
+
+    .navlinks{
+        display: flex;
+        text-transform: uppercase;
+    }
+
+    .navlinks li{
+        padding-right: 100px;
+        padding-top: 11px;
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+    .navlinks a{
+        color: #E75934;
+    }
+
+    .navlinks button{
+        background-color: #E75934;
+        border: none;
+        padding: 13px 20px 10px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        font-size: 1.1em;
+    }
+
+    .navlinks button{
+        color: white;
+    }
+
+    .logo h2, .logo{
+        width: 90px;
+        padding-top: 10px;
+    }
+    /* navigation end MEDIA*/
+
+
+
+    /* paws start MEDIA*/
+    .paw1{
+        width: 80px;
+        top: 220px;
+        left: 330px;
+    }
+    
+    .paw2{
+        width: 7%;
+        top: 230px;
+        left: 1110px;
+    }
+    
+    .paw3{
+        width: 70px;
+        top: 390px;
+        left: 480px;
+    }
+    .paw4{
+        width: 170px;
+        top: 400px;
+        left: 1040px;
+    }
+
+    /* paws end MEDIA*/
+
+
+
+    /* jumbotron  MEDIA*/
+    .jumbotron{
+        height: 450px;
+        margin-left: 180px;
+    }
+
+    .jumbocontent img{
+        top:160px;
+        left:53%;
+        width: 75px;
+    }
+
+    .jumbocontent h1{
+        font-weight: 500;
+        font-size: 3.5em;
+        padding: 140px 50px 0;
+    }
+    
+    .jumbocontent h2{
+        opacity: 67%;
+        font-size: 1.3em;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .cat{
+        width: 320px;
+        top:270px;
+        left: 90px;
+    }
+    /* jumbotron end  MEDIA*/
+
+
+
+
+    /* location MEDIA */
+
+    .location{
+        height: 32vh;
+    }
+
+    .location li{
+        padding: 25px;
+    }
+
+    .locate, .germany{
+        width: 60px;
+    }
+
+    /* end of location MEDIA*/
+
+
+
+    /* services start MEDIA*/
+
+    .services{
+        height: 500px;
+        width: 100%;
+        top: 650px;
+        overflow-y: hidden;
+    }
+
+    .services h3{
+        font-size: 2.5em;
+        top:200px;
+        left: 42%;
+    }
+
+    .hotel, .home{
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+        padding-top:50px;
+    }
+
+    .servicecards .home img{
+        width: 150px;
+        padding-bottom: 35px;
+    }
+    
+    .servicecards .hotel img{
+        width: 150px;
+        padding-bottom: 35px;
+    }
+
+    .facilities{
+        height: auto;
+        width: 50%;
+        top: 1620px;
+    }
+    
+    .facilities h3{
+        font-size: 2.5em;
+        top:10px;
+        left: 34%;
+    }
+    
+    .cathotel{
+        width: 100%;
+        top:80px;
+        left:0;
+    }
+
+    .testimonials{
+        height: 340px;
+        margin-top: 1350px;
+    }
+
+    .innertest h3{
+        top:2185px;
+        left:43%;
+        font-size: 1.9em;
+    }
+
+    .testimonials img{
+        width: 90px;
+        top:2175px;
+        left:300px;
+    }
+
+    .innertest{
+        height: 185px;
+        width: 50%;
+        margin: 80px 350px;
+        padding: 30px 30px 30px 50px;
+        border-radius: 10px;
+    }
+
+    .innertest button{
+        top:2400px;
+        left:43%;
+        padding: 12px 30px;
+        font-size: 0.6em;
+    }
+
+    .servicecards {
+        margin-top: 200px;
+        justify-content: center;
+        position: absolute;
+        top:780px;
+        left:22%;
+    }
+
+/* cats */
+.cat1{
+    width: 55px;
+    top:2185px;
+    left:100px;
+}
+
+.cat2{
+    position: absolute;
+    width: 55px;
+    top:2185px;
+    left:430px;
+}
+
+.cat3{
+    position: absolute;
+    width: 50px;
+    top:2185px;
+    left:13px;
+}
+
+.cat4{
+    position: absolute;
+    width: 50px;
+    top:2185px;
+    left:400px;
+}
+/* end of cats MEDIA*/
+    
+}
