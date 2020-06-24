@@ -383,6 +383,7 @@ nav{
 .footer1 h5{
     font-size: 1.4em;
     margin-bottom: 5%;
+    color: #E75934;
 }
 
 .footer1 p{
@@ -556,20 +557,20 @@ nav{
     .services{
         height: 500px;
         width: 100%;
-        top: 650px;
+        top: 700px;
         overflow-y: hidden;
     }
 
     .services h3{
         font-size: 2.5em;
-        top:200px;
+        top:230px;
         left: 42%;
     }
 
     .hotel, .home{
         width: 320px;
         height: 320px;
-        margin: 10px;
+        margin: 20px;
         padding-top:50px;
     }
 
@@ -583,10 +584,19 @@ nav{
         padding-bottom: 35px;
     }
 
+    .servicecards {
+        margin-top: 200px;
+        justify-content: center;
+        position: absolute;
+        top:780px;
+        left:24%;
+    }
+
     .facilities{
         height: auto;
         width: 50%;
-        top: 1620px;
+        top: 1420px;
+        left: 350px;
     }
     
     .facilities h3{
@@ -601,20 +611,22 @@ nav{
         left:0;
     }
 
+    /* testimonials */
+
     .testimonials{
         height: 340px;
-        margin-top: 1350px;
+        margin-top: 1150px;
     }
 
     .innertest h3{
-        top:2185px;
+        top:1985px;
         left:43%;
         font-size: 1.9em;
     }
 
     .testimonials img{
-        width: 90px;
-        top:2175px;
+        width: 100px;
+        top:1975px;
         left:300px;
     }
 
@@ -627,47 +639,60 @@ nav{
     }
 
     .innertest button{
-        top:2400px;
+        top:2200px;
         left:43%;
         padding: 12px 30px;
         font-size: 0.6em;
     }
 
-    .servicecards {
-        margin-top: 200px;
-        justify-content: center;
-        position: absolute;
-        top:780px;
-        left:22%;
-    }
+
 
 /* cats */
-.cat1{
-    width: 55px;
-    top:2185px;
-    left:100px;
-}
+    .cat1{
+        width: 55px;
+        top:1985px;
+        left:100px;
+    }
 
-.cat2{
-    position: absolute;
-    width: 55px;
-    top:2185px;
-    left:430px;
-}
+    .cat2{
+        position: absolute;
+        width: 55px;
+        top:2185px;
+        left:430px;
+    }
 
-.cat3{
-    position: absolute;
-    width: 50px;
-    top:2185px;
-    left:13px;
-}
+    .cat3{
+        position: absolute;
+        width: 50px;
+        top:1985px;
+        left:1100px;
+    }
 
-.cat4{
-    position: absolute;
-    width: 50px;
-    top:2185px;
-    left:400px;
-}
+    .cat4{
+        position: absolute;
+        width: 50px;
+        top:2185px;
+        left:1290px;
+    }
 /* end of cats MEDIA*/
     
+
+    .footer1 li{
+      width: 350px
+    }
+
+    .contact p{
+      font-size: 0.8em;
+      line-height: 1.6;
+    }   
+
+    .footer1 p{
+        font-size: 0.9em;
+    }
+
+    .footerlogo{
+        width: 170px;
+        padding: 30px 0 60px 40px;
+    }
+
 }
