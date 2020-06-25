@@ -75,6 +75,51 @@ nav{
 /* jumbotron end */
 
 
+/* questions start */
+.questionscontainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 50px 50px;
+    grid-gap: 20px;
+}
+
+.questionscontainer div{
+    background-color: #F5E6D8;
+    padding: 17px 25px;
+    font-size: 0.6em;
+    width: 100%;
+    color: #E75934;
+}
+
+.questionscontainer img{
+    width: 40px;
+    transform: rotate(20deg);
+    float: left;
+    margin-right: 20px;
+}
+
+#one h2{
+    padding-top: 13px;
+}
+
+#two h2{
+    padding-top: 13px;
+}
+
+#three h2{
+    padding-top: 13px;
+}
+
+#four h2{
+    padding-top: 13px;
+}
+
+
+
+
 
 /* jumbotron 2 start*/
 .jumbotron2{
@@ -110,6 +155,9 @@ nav{
 }
 /* jumbotron 2 end */
 
+
+
+
 /* cats */
 .cats{
     opacity: 0.3;
@@ -117,31 +165,36 @@ nav{
 .cat1{
     position: absolute;
     width: 35px;
-    top:320px;
-    left:100px;
+    top:780px;
+    left:80px;
 }
 
 .cat2{
     position: absolute;
     width: 35px;
-    top:310px;
+    top:895px;
     left:430px;
 }
 
 .cat3{
     position: absolute;
     width: 35px;
-    top:400px;
-    left:40px;
+    top:860px;
+    left:35px;
 }
 
 .cat4{
     position: absolute;
     width: 35px;
-    top:430px;
-    left:400px;
+    top:780px;
+    left:390px;
 }
 /* cats end */
+
+
+
+
+
 
 
 
@@ -253,6 +306,140 @@ nav{
         padding-top: 10px;
     }
     /* navigation end MEDIA*/
+
+    /* jumbotron MEDIA */
+    .jumbotron{
+        height: 40vh;
+    }
+    
+    .paw1{
+        width: 17%;
+        top: 150px;
+    }
+    
+    .jumbocontent h1{
+        font-size: 2em;
+        padding: 190px 50px 0;
+    }
+
+    /* end jumbotron MEDIA */
+
+
+    /* questions start  MEDIA*/
+    .questionscontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .questionscontainer li{
+        padding: 17px 25px;
+        margin-top: 20px;
+        font-size: 0.6em;
+    }
+
+    .questionscontainer img{
+        width: 40px;
+        transform: rotate(20deg);
+        float: left;
+        margin-right: 20px;
+    }
+
+    #one{
+        grid-column:1/2;
+        grid-row: 1/2;
+    }
+
+    #one h2{
+        padding-top: 13px;
+    }
+
+    #two{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #three{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #four h2{
+        padding-top: 13px;
+    }
+    /* end questions MEDIA */
+
+    /* jumbotron 2 start*/
+.jumbotron2{
+    background-color:#FCAE54;
+    height: 24vh;
+}
+
+.jumbo2content{
+    text-align: center;
+    color: white;
+}
+
+.jumbotron2 h1{
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 32px 50px 7px;
+}
+.jumbotron2 p{
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1.4;
+}
+
+.contactus{
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px 7px;
+    margin-top: 10px;
+    color: #FCAE54;
+    text-transform: uppercase;
+
+}
+/* jumbotron 2 end */
+
+
+
+
+/* cats  MEDIA*/
+
+    .cat1{
+
+        width: 50px;
+        top:780px;
+        left:80px;
+    }
+
+    .cat2{
+        position: absolute;
+        width: 50px;
+        top:700px;
+        left:930px;
+    }
+
+    .cat3{
+        position: absolute;
+        width: 50px;
+        top:700px;
+        left:330px;
+    }
+
+    .cat4{
+        position: absolute;
+        width: 50px;
+        top:810px;
+        left:1190px;
+    }
+    /* cats end  MEDIA*/
+
+
 
 
 
