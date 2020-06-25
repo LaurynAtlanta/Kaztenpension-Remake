@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, p, li, button{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo h2, .logo{
+ width: 70px;
+ padding-top: 10px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 50px;
+}
+
+.navlinks{
+    display: none;
+}
+
+.burger div{
+    display: block;
+    height: 4px;
+    width: 35px;
+    background-color: black;
+    margin: 5px;
+}
+/* nav end */
+
+
+/* Jumbotron start */
+.jumbotron{
+    background-color: #F5E6D8;
+    height: 30vh;
+}
+.paws{
+    opacity: 45%;
+}
+
+.paw1{
+    width: 31%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+.jumbocontent{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.jumbocontent h1{
+    position: absolute;
+    color: #E75934;
+    font-weight: 800;
+    font-size: 1.4em;
+    padding: 145px 50px 0;
+    z-index: 5;
+}
+
+/* jumbotron end */
+
+
+
+/* jumbotron 2 start*/
+.jumbotron2{
+    background-color:#FCAE54;
+    height: 24vh;
+}
+
+.jumbo2content{
+    text-align: center;
+    color: white;
+}
+
+.jumbotron2 h1{
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 32px 50px 7px;
+}
+.jumbotron2 p{
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1.4;
+}
+
+.contactus{
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px 7px;
+    margin-top: 10px;
+    color: #FCAE54;
+    text-transform: uppercase;
+
+}
+/* jumbotron 2 end */
+
+/* cats */
+.cats{
+    opacity: 0.3;
+}
+.cat1{
+    position: absolute;
+    width: 35px;
+    top:320px;
+    left:100px;
+}
+
+.cat2{
+    position: absolute;
+    width: 35px;
+    top:310px;
+    left:430px;
+}
+
+.cat3{
+    position: absolute;
+    width: 35px;
+    top:400px;
+    left:40px;
+}
+
+.cat4{
+    position: absolute;
+    width: 35px;
+    top:430px;
+    left:400px;
+}
+/* cats end */
+
+
+
+/* Footer start */
+.footer1{
+    margin-top: 3vh;
+    height:25vh;
+    background-color: white;
+}
+
+.footer1 ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1 li{
+    width: 150px
+}
+
+.footer1 h5{
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    color: #E75934;
+}
+
+.footer1 p{
+    font-size: 0.8em;
+}
+
+.about{
+    padding-left: 5px;
+}
+.about p{
+    padding-bottom: 36px;
+}
+
+.contact p{
+    font-size: 0.7em;
+    line-height: 1.4;
+}
+
+.footer2{
+    height: 5vh;
+    background-color: #6C8070;
+}
+
+.footerlogo{
+    width: 125px;
+    padding: 0 0 60px 20px;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media only screen and (min-width: 1200px){
+    
+    /* navigation start MEDIA*/
+    .burger{
+        display: none;
+    }
+
+    nav{
+        height: 18vh;
+    }
+
+    .navlinks{
+        display: flex;
+        text-transform: uppercase;
+    }
+
+    .navlinks li{
+        padding-right: 100px;
+        padding-top: 11px;
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+    .navlinks a{
+        color: #E75934;
+    }
+
+    .navlinks button{
+        background-color: #E75934;
+        border: none;
+        padding: 13px 20px 10px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        font-size: 1.1em;
+    }
+
+    .navlinks button{
+        color: white;
+    }
+
+    .logo h2, .logo{
+        width: 90px;
+        padding-top: 10px;
+    }
+    /* navigation end MEDIA*/
+
+
+
+    /* footer start MEDIA */
+    .footer1 li{
+        width: 350px
+      }
+  
+      .contact p{
+        font-size: 0.8em;
+        line-height: 1.6;
+      }   
+  
+      .footer1 p{
+          font-size: 0.9em;
+      }
+  
+      .footerlogo{
+          width: 170px;
+          padding: 30px 0 60px 40px;
+      }
+      /* end footer MEDIA */
+}
