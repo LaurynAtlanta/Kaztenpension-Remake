@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, p, li, button, textarea{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo h2, .logo{
+ width: 70px;
+ padding-top: 10px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 50px;
+}
+
+.navlinks{
+    display: none;
+}
+
+.burger div{
+    display: block;
+    height: 4px;
+    width: 35px;
+    background-color: black;
+    margin: 5px;
+}
+/* nav end */
+
+
+
+
+
+
+/* Jumbotron start */
+.jumbotron{
+    background-color: #F5E6D8;
+    height: 30vh;
+}
+.paws{
+    opacity: 45%;
+}
+
+.paw1{
+    width: 31%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+.jumbocontent{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.jumbocontent h1{
+    position: absolute;
+    color: #E75934;
+    font-weight: 800;
+    font-size: 1.7em;
+    padding: 145px 50px 0;
+    z-index: 5;
+}
+
+/* jumbotron end */
+
+
+
+
+
+
+
+/* contact info start */
+
+
+.contactpage{
+    display: flex;
+    flex-direction: column;
+}
+
+.catoutline{
+    position: absolute;
+    width:90px;
+    top:925px;
+    left:20px;
+}
+
+.contactinfo{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contactinfo h2{
+    color: #E75934;
+    margin-top: 10px;
+}
+
+.contactinfo p{
+    line-height: 1.4;
+}
+/* contact info end */
+
+
+
+
+
+
+
+/* contact form start */
+.contactform{
+background-color: #F5E6D8;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 25px;
+padding-bottom: 15px;
+margin: 20px 40px 40px;
+}
+
+.contactform h2{
+    color: #E75934;
+    padding-bottom: 10px;
+}
+
+textarea{
+    color: rgba(231, 89, 52, 0.3);
+    font-weight: 800;
+}
+
+input, textarea{
+    margin: 10px;
+    border: none;
+    padding: 15px;
+    width: 300px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    color:#E75934;
+    opacity: 0.3;
+    font-weight: 800;
+}
+
+.message{
+    height: 200px;
+    width: 300px;
+}
+
+.submit{
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 30px 7px;
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px 0;
+    color:#E75934;
+}
+
+
+/* end contact form */
+
+
+
+
+
+
+
+
+
+
+/* jumbotron 2, 3 start*/
+
+.jumbos{
+    display: flex;
+    flex-direction: column;
+}
+.jumbotron2, .jumbotron3{
+    background-color:#6C8070;
+    height: 20vh;
+}
+
+.jumbo2content, .jumbo3content{
+    text-align: center;
+    color: white;
+}
+
+.jumbotron2 h1, .jumbotron3 h1{
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 32px 50px 7px;
+    font-weight: 400;
+}
+.jumbotron2 p, .jumbotron3 p{
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1.4;
+}
+
+.contactus{
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px 7px;
+    margin-top: 10px;
+    color: #FCAE54;
+    text-transform: uppercase;
+
+}
+.jumbotron2 .contactus{
+    color: #6C8070;
+}
+.jumbotron3{
+    background-color: #FCAE54;
+    margin-top: 30px;
+}
+
+.paws2{
+    opacity: 25%;
+}
+
+.paw2{
+    width: 27%;
+    position: absolute;
+    top: 1080px;
+    left: 290px;
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+.paw3{
+    width: 27%;
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+/* jumbotron 2 3 end */
+
+
+
+
+/* cats */
+.cats{
+    opacity: 0.3;
+}
+.cat1{
+    position: absolute;
+    width: 35px;
+    top:1080px;
+    left:80px;
+}
+
+.cat2{
+    position: absolute;
+    width: 35px;
+    top:1080px;
+    left:430px;
+}
+
+.cat3{
+    position: absolute;
+    width: 35px;
+    top:1160px;
+    left:35px;
+}
+
+.cat4{
+    position: absolute;
+    width: 35px;
+    top:1190px;
+    left:390px;
+}
+/* cats end */
+
+
+
+
+
+
+
+
+/* Footer start */
+.footer1{
+    margin-top: 3vh;
+    height:32vh;
+    background-color: white;
+}
+
+.footer1 ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1 li{
+    width: 150px
+}
+
+.footer1 h5{
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    color: #E75934;
+}
+
+.footer1 p{
+    font-size: 0.8em;
+}
+
+.about{
+    padding-left: 5px;
+}
+.about p{
+    padding-bottom: 36px;
+}
+
+.contact p{
+    font-size: 0.7em;
+    line-height: 1.4;
+}
+
+.footer2{
+    height: 5vh;
+    background-color: #6C8070;
+}
+
+.footerlogo{
+    width: 125px;
+    padding: 0 0 60px 20px;
+}
+/* footer end */
+
+
+
+/* media queries */
+@media only screen and (min-width: 1200px){
+    
+    /* navigation start MEDIA*/
+    .burger{
+        display: none;
+    }
+
+    nav{
+        height: 18vh;
+    }
+
+    .navlinks{
+        display: flex;
+        text-transform: uppercase;
+    }
+
+    .navlinks li{
+        padding-right: 100px;
+        padding-top: 11px;
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+    .navlinks a{
+        color: #E75934;
+    }
+
+    .navlinks button{
+        background-color: #E75934;
+        border: none;
+        padding: 13px 20px 10px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        font-size: 1.1em;
+    }
+
+    .navlinks button{
+        color: white;
+    }
+
+    .logo h2, .logo{
+        width: 90px;
+        padding-top: 10px;
+    }
+    /* navigation end MEDIA*/
+
+
+
+
+
+
+    /* jumbotron MEDIA */
+    .jumbotron{
+        height: 40vh;
+    }
+    
+    .paw1{
+        width: 17%;
+        top: 150px;
+    }
+    
+    .jumbocontent h1{
+        font-size: 2.5em;
+        padding: 190px 50px 0;
+    }
+
+    /* end jumbotron MEDIA */
+
+
+
+
+
+    /* contact start MEDIA */
+    .contactpage{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+ 
+    }
+
+    .contactinfo{
+        flex: 50%;
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    .contactinfo h2{
+        font-size: 1.8em;
+        padding: 10px 0;
+    }
+
+    .contactinfo p{
+        font-size: 1.3em;
+        padding: 1px 0;
+    }
+
+    .contactform{
+        flex: 50%;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        margin: 50px 40px 50px;
+    }
+
+    .contactform h2{
+        font-size:1.8em;
+    }
+
+        
+    .contactus{
+        border: none;
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px 20px 7px;
+        margin-top: 10px;
+        color: #FCAE54;
+        text-transform: uppercase;
+    
+    }
+
+    input, textarea{
+        width: 500px;
+    }
+
+    .catoutline{
+        width:170px;
+        top:740px;
+        left:690px;
+    }
+
+    /* contact section end MEDIA */
+
+
+
+
+
+
+    /* jumbotron 2 start*/
+    
+    .jumbo2content,.jumbo3content{
+        text-align: center;
+        color: white;
+    }
+    
+    .jumbotron2 h1, .jumbotron3 h1{
+        font-size: 1.6em;
+        padding: 32px 50px 7px;
+    }
+    .jumbotron2 p, .jumbotron3 p{
+        font-weight: 400;
+        font-size: 0.85em;
+        line-height: 1.4;
+    }
+
+    .jumbotron2, .jumbotron3{
+        flex: 50%;
+    }
+
+    .jumbotron3{
+        margin:0;
+    }
+
+    .jumbos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .paw2{
+        width: 10%;
+        top: 980px;
+        left: 390px;
+    }
+    
+    .paw3{
+        width: 10%;
+        position: absolute;
+        top: 980px;
+        left: 920px;
+        transform: rotate(-20deg);
+        z-index: -1;
+    }
+    /* jumbotron 2 end */
+
+
+    
+    
+    
+    
+    /* cats  MEDIA*/
+    
+        .cat1{
+            width: 50px;
+            top:780px;
+            left:80px;
+        }
+    
+        .cat2{
+            width: 50px;
+            top:700px;
+            left:930px;
+        }
+    
+        .cat3{
+            width: 50px;
+            top:700px;
+            left:330px;
+        }
+    
+        .cat4{
+            width: 50px;
+            top:810px;
+            left:1190px;
+        }
+        /* cats end  MEDIA*/
+    
+    
+    
+    
+    
+        /* footer start MEDIA */
+        .footer1 li{
+            width: 350px
+          }
+      
+          .contact p{
+            font-size: 0.8em;
+            line-height: 1.6;
+          }   
+      
+          .footer1 p{
+              font-size: 0.9em;
+          }
+      
+          .footerlogo{
+              width: 170px;
+              padding: 30px 0 60px 40px;
+          }
+          /* end footer MEDIA */
+    }
