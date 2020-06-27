@@ -50,11 +50,38 @@ nav{
 }
 
 .paw1{
-    width: 31%;
+    width: 10%;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    top: 100px;
+    left: 20px;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+
+.paw2{
+    width: 12%;
+    position: absolute;
+    top: 110px;
+    left: 390px;
     transform: rotate(20deg);
+    z-index: -1;
+}
+
+.paw3{
+    width: 11%;
+    position: absolute;
+    top: 390px;
+    left: 30px;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+
+.paw4{
+    width: 8%;
+    position: absolute;
+    top: 390px;
+    left: 390px;
+    transform: rotate(-20deg);
     z-index: -1;
 }
 
@@ -128,6 +155,85 @@ nav{
 /* cat end in jumbotron */
 
 
+/* motivation start */
+.motivation h2{
+    color: #E75934;
+    text-align: center;
+    padding: 30px 0 20px;
+}
+.motivationcontent{
+    background-color: #F5E6D8;
+    color: #E75934;
+    font-weight: 400;
+    padding: 25px;
+    margin: 0 40px 40px;
+}
+
+.motivationcontent p{
+    line-height: 1.3;
+}
+/* motivation end */
+
+
+/* owners start */
+.owners img{
+    width: 235px;
+    height: 156px;
+}
+
+#owner1{
+    position: absolute;
+    top: 980px;
+    left: 0px;
+    z-index: 8;
+}
+
+#owner2{
+    position: absolute;
+    top: 980px;
+    right: 0px;
+    z-index: 8;
+}
+
+.ownersbg{
+    background-color: #F5E6D8;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 1050px;
+}
+
+.owners h2{
+    color: #E75934;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.ownerscontent{
+    padding: 130px 50px 20px;
+    text-align: left;
+    color: #E75934;
+    line-height: 1.3em;
+    margin-top: 140px;
+}
+
+.ownerscontent p:first-child{
+    padding-bottom: 4%;
+}
+
+#catoutlineowners{
+    width: 60px;
+    position: absolute;
+    top: 1120px;
+    left: 20px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+/* owners end */
+
+
+
 /* jumbotron 2 start*/
 .jumbotron2{
     background-color:#FCAE54;
@@ -172,28 +278,28 @@ nav{
 .cat1{
     position: absolute;
     width: 35px;
-    top:780px;
+    top:1600px;
     left:80px;
 }
 
 .cat2{
     position: absolute;
     width: 35px;
-    top:895px;
+    top:1730px;
     left:430px;
 }
 
 .cat3{
     position: absolute;
     width: 35px;
-    top:860px;
+    top:1680px;
     left:35px;
 }
 
 .cat4{
     position: absolute;
     width: 35px;
-    top:780px;
+    top:1600px;
     left:390px;
 }
 /* cats end */
@@ -260,6 +366,10 @@ nav{
 
 
 
+
+
+
+
 /* media queries */
 @media only screen and (min-width: 1200px){
     
@@ -307,22 +417,161 @@ nav{
     }
     /* navigation end MEDIA*/
 
+
+
+
+
     /* jumbotron MEDIA */
     .jumbotron{
-        height: 40vh;
-    }
-    
-    .paw1{
-        width: 17%;
-        top: 150px;
-    }
-    
-    .jumbocontent h1{
-        font-size: 2em;
-        padding: 190px 50px 0;
+        height: 70vh;
     }
 
-    /* end jumbotron MEDIA */
+.paw1{
+    width: 10%;
+    top: 130px;
+    left: 200px;
+}
+
+.paw2{
+    width: 12%;
+    top: 110px;
+    left: 990px;
+}
+
+.paw3{
+    width: 11%;
+    top: 390px;
+    left: 30px;
+}
+
+.paw4{
+    width: 8%;
+    top: 410px;
+    left: 1190px;
+}
+
+.jumbocontent h1{
+    padding: 145px 50px 0;
+    left: 675px;
+    top: 285px;
+    font-size: 2.5em;
+}
+
+.catabout img{
+    width: 260px;
+}
+
+#catleg{
+    top:175px;
+    left:450px;
+}
+
+#catup{
+    width: 320px;
+    top:220px;
+    left:670px;
+}
+
+.whitebox1{
+    width: 290px;
+    height: 420px;
+    top:160px;
+    left:435px;
+}
+
+.whitebox2{
+    width: 350px;
+    height: 240px;
+    top:205px;
+    left:655px;
+}
+
+.whitebox3{
+    width: 380px;
+    height: 110px;
+    top:390px;
+    left:655px;
+}
+/* cat end in jumbotron  MEDIA*/
+
+
+/* motivation start  MEDIA*/
+.motivation h2{
+font-size: 2em;
+padding: 40px 0 30px;
+}
+.motivationcontent{
+    padding: 40px;
+    margin: 0 100px 100px;
+}
+
+.motivationcontent p{
+    font-size: 1.2em;
+}
+/* motivation end MEDIA*/
+
+
+
+/* owners start MEDIA*/
+.owners img{
+    width: 300px;
+    height: 200px;
+}
+
+#owner1{
+    top: 1060px;
+    left: 27%;
+}
+
+#owner2{
+    top: 1060px;
+    right: 27%;
+}
+
+.ownersbg{
+    background-color: #F5E6D8;
+    width: 100%;
+    margin-top: 120px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 1050px;
+}
+
+.owners h2{
+    color: #E75934;
+    text-align: center;
+    font-size: 2em;
+}
+
+.ownerscontent{
+    padding: 130px 50px 20px;
+    margin: 170px 80px 20px;
+    text-align: left;
+    color: #E75934;
+}
+
+.ownerscontent p:first-child{
+    padding-bottom: 4%;
+    padding-left: 100px;
+}
+
+.ownerscontent p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#catoutlineowners{
+    width: 130px;
+    top: 1270px;
+    left: 80px;
+}
+
+/* owners end MEDIA*/
+
+
+
+
 
      /* jumbotron 2 start*/
 .jumbotron2{
@@ -366,28 +615,28 @@ nav{
     .cat1{
 
         width: 50px;
-        top:780px;
-        left:80px;
+        top:1760px;
+        left:150px;
     }
 
     .cat2{
         position: absolute;
         width: 50px;
-        top:700px;
+        top:1810px;
         left:930px;
     }
 
     .cat3{
         position: absolute;
         width: 50px;
-        top:700px;
-        left:330px;
+        top:1700px;
+        left:430px;
     }
 
     .cat4{
         position: absolute;
         width: 50px;
-        top:810px;
+        top:1700px;
         left:1190px;
     }
     /* cats end  MEDIA*/
